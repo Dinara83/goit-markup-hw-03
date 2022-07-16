@@ -47,14 +47,22 @@ textarea {
 /*
   8. Avoid text overflows
 */
-p,
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6 p {
+    margin-top: 0;
+    margin-bottom: 0;
     overflow-wrap: break-word;
+}
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 /*
   9. Create a root stacking context
@@ -68,4 +76,15 @@ a {
 }
 ul {
     list-style: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+address {
+    font-style: normal;
 }
