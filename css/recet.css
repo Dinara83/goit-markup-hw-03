@@ -4,18 +4,16 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
     padding: 0;
 }
 
 /*
   3. Allow percentage-based heights in the application
 */
-html,
+/* html,
 body {
     height: 100%;
-}
+} */
 /*
   Typographic tweaks!
   4. Add accessible line-height
@@ -39,6 +37,7 @@ svg {
 /*
   7. Remove built-in form typography styles
 */
+body,
 input,
 button,
 textarea {
@@ -67,10 +66,10 @@ ol {
 /*
   9. Create a root stacking context
 */
-#root,
+/* #root,
 #__next {
     isolation: isolate;
-}
+} */
 a {
     text-decoration: none;
 }
@@ -78,13 +77,16 @@ ul {
     list-style: none;
 }
 
-.list {
+list {
     list-style: none;
 }
 
-.link {
+link {
     text-decoration: none;
 }
 address {
     font-style: normal;
+}
+button {
+    cursor: pointer;
 }
