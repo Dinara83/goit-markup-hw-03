@@ -53,14 +53,12 @@ h3,
 h4,
 h5,
 h6 p {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     overflow-wrap: break-word;
 }
 ul,
 ol {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     padding-left: 0;
 }
 /*
@@ -77,11 +75,11 @@ ul {
     list-style: none;
 }
 
-list {
+.list {
     list-style: none;
 }
 
-link {
+.link {
     text-decoration: none;
 }
 address {

@@ -48,7 +48,7 @@
 
     <main>
         <!-- Шапка сайта -->
-        <section class="hero">
+        <section class="hero section">
             <div class="container">
                 <h1 class="hero-title">эффективные решения
                     для вашего бизнеса</h1>
@@ -56,32 +56,32 @@
             </div>
         </section>
         <!-- Особенности -->
-        <section class="visually">
+        <section class="visually section">
             <div class="container">
                 <h2 class="visually-hidden">преимущества</h2>
-                <ul class="visually list">
-                    <li>
+                <ul class="visually-item list">
+                    <li class="visy">
                         <h3 class="main-title">Внимание к деталям</h3>
                         <p class="suptitle">
                             Идейные соображения, а также начало повседневной работы по
                             формированию позиции.
                         </p>
                     </li>
-                    <li>
+                    <li class="visy">
                         <h3 class="main-title">Пунктуальность</h3>
                         <p class="suptitle">
                             Задача организации, в особенности же рамки и место обучения кадров
                             влечет за собой.
                         </p>
                     </li>
-                    <li>
+                    <li class="visy">
                         <h3 class="main-title">Планирование</h3>
                         <p class="suptitle">
                             Равным образом консультация с широким активом в значительной степени
                             обуславливает.
                         </p>
                     </li>
-                    <li>
+                    <li class="visy">
                         <h3 class="main-title">Современные технологии</h3>
                         <p class="suptitle">
                             Значимость этих проблем настолько очевидна, что реализация плановых
@@ -92,50 +92,58 @@
             </div>
         </section>
         <!-- Деятельность -->
-        <section class="activity">
+        <section class="activity section">
             <div class="container">
                 <h2 class="activity-title">Чем мы занимаемся</h2>
-                <ul class="activity list">
-                    <li>
-                        <img class="activity-team" src="./images/job/box_1.jpg" alt="дело" width="370" height="294" />
+                <ul class="activity-item list">
+                    <li class="activ">
+                        <img class="activity-foto" src="./images/job/box_1.jpg" alt="дело" width="370" height="294" />
                     </li>
-                    <li>
-                        <img class="activity-team" src="./images/job/box_2.jpg" alt="дело" width="370" height="294" />
+                    <li class="activ">
+                        <img class="activity-foto" src="./images/job/box_2.jpg" alt="дело" width="370" height="294" />
                     </li>
-                    <li>
-                        <img class="activity-team" src="./images/job/box_3.jpg" alt="дело" width="370" height="294" />
+                    <li class="activ">
+                        <img class="activity-foto" src="./images/job/box_3.jpg" alt="дело" width="370" height="294" />
                     </li>
                 </ul>
             </div>
         </section>
         <!-- Команда -->
-        <section class="proficional">
+        <section class="proficional section">
+            <h2 class="proficional-title">Наша команда</h2>
             <div class="container">
-                <h2 class="proficional-title">Наша команда</h2>
                 <ul class="proficional-item list">
-                    <li>
-                        <img src="./images/employees/1_Игорь_Демьяненко_Product_Designer.jpg" alt="сотрудник"
+                    <li class="prof">
+                        <div class="prof-container">
+                            <img class="foto" src="./images/employees/1_Игорь_Демьяненко_Product_Designer.jpg"
+                                alt="сотрудник" width="270" height="260" />
+                            <h3 class="proficional-team">Игорь Демьяненко</h3>
+                            <p class="prof-title" lang="en">Product Designer</p>
+
+                    </li>
+                    <li class="prof">
+                        <div class="prof-container">
+                            <img class="foto" src="./images/employees/2_Ольга_Репина_Frontend_Developer.jpg"
+                                alt="сотрудник" width="270" height="260" />
+                            <h3 class="proficional-team">Ольга Репина</h3>
+                            <p class="prof-title" lang="en">Frontend Developer</p>
+
+                    </li>
+                    <li class="prof">
+                        <div class="prof-container">
+                            <img class="foto" src="./images/employees/3_Николай_Тарасов_Marketing.jpg" alt="сотрудник"
+                                width="270" height="260" />
+                            <h3 class="proficional-team">Николай Тарасов</h3>
+                            <p class="prof-title" lang="en">Marketing</p>
+
+                    </li>
+                    <li class="prof">
+
+                        <img class="foto" src="./images/employees/4_Михаил_Ермаков_UI_Designer.jpg" alt="сотрудник"
                             width="270" height="260" />
-                        <h3 class="prof-title">Игорь Демьяненко</h3>
-                        <p class="proficional-team" lang="en">Product Designer</p>
-                    </li>
-                    <li>
-                        <img src="./images/employees/2_Ольга_Репина_Frontend_Developer.jpg" alt="сотрудник" width="270"
-                            height="260" />
-                        <h3 class="prof-title">Ольга Репина</h3>
-                        <p class="proficional-team" lang="en">Frontend Developer</p>
-                    </li>
-                    <li>
-                        <img src="./images/employees/3_Николай_Тарасов_Marketing.jpg" alt="сотрудник" width="270"
-                            height="260" />
-                        <h3 class="prof-title">Николай Тарасов</h3>
-                        <p class="proficional-team" lang="en">Marketing</p>
-                    </li>
-                    <li>
-                        <img src="./images/employees/4_Михаил_Ермаков_UI_Designer.jpg" alt="сотрудник" width="270"
-                            height="260" />
-                        <h3 class="prof-title">Михаил Ермаков</h3>
-                        <p class="proficional-team" lang="en">UI Designer</p>
+                        <h3 class="proficional-team">Михаил Ермаков</h3>
+                        <p class="prof-title" lang="en">UI Designer</p>
+
                     </li>
                 </ul>
             </div>
