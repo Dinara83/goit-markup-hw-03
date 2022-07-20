@@ -39,22 +39,17 @@ body {
 /* Навигация */
 
 .page-header {
-    padding-left: 200px;
+    /* padding-left: 200px;
     padding-top: 24px;
-    padding-right: 200px;
+    padding-right: 200px; */
     border: 1px solid var(--line-header);
 }
 
-.page-header-container {
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-}
-
+.page-header-container,
 .page-nav,
-.menu,
-.menu-contact {
+.menu {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -63,8 +58,9 @@ body {
 }
 
 .menu-contact {
+    display: flex;
+    align-items: center;
     margin-left: auto;
-    margin-right: 50px;
 }
 
 .contact-emeil-link,
@@ -98,6 +94,8 @@ body {
 
 .menu-link,
 .menu-portfolio-link {
+    padding: 32px 0;
+    display: block;
     font-weight: 500;
     color: var(--basic-color);
 }
