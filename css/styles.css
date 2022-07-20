@@ -14,8 +14,6 @@
 
 body {
     font-family: var(--primary-font);
-    width: 1600px;
-    height: 2349px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
@@ -203,12 +201,15 @@ body {
 
 .main-title {
     font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--basic-color);
 }
 
 .suptitle {
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -262,12 +263,15 @@ body {
 .prof {
     width: 270px;
     margin: 0 auto;
-    padding: 0 auto;
     background: var(--primary-white-color);
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+}
+
+.prof-title {
+    padding: 30px 30px;
 }
 
 .proficional-team {
@@ -277,17 +281,17 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--basic-color);
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
-.prof-title {
+.profle {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--primary-color);
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 0;
 }
 
 /* Портфолио */
@@ -355,7 +359,7 @@ body {
 }
 
 .project-title {
-    margin: 24px 20px;
+    padding: 24px 20px;
 }
 
 .name-proj {
@@ -379,11 +383,13 @@ body {
 .under {
     padding-top: 60px;
     padding-bottom: 60px;
-    flex-wrap: wrap;
-    align-items: center;
     background-color: var(--primary-theme-dark);
 }
 
+/* .addr {
+    flex-wrap: wrap;
+    align-items: center;
+} */
 .logo-foot {
     font-family: var(--secondary-font);
     font-weight: 700;
